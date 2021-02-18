@@ -1,0 +1,9 @@
+.chat-wrapper {
+    padding: 24px;
+    background: #fff;
+    margin: 25px 0;
+}
+
+.chat__input {
+    display: flex;
+}
