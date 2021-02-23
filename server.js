@@ -9,11 +9,9 @@ const cors = require('cors')
 app.use(cors())
 
 io.on("connection", socket => {
-
   socket.on("message", message => {
-    socket.emit("message", message)
+    socket.broadcast.emit("message", message)
   })
-
 
 })
 
